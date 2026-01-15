@@ -1,0 +1,57 @@
+import { TrendingUp, Package } from "lucide-react";
+
+export const pricingPlans = [
+  {
+    id: 1,
+    name: "Starter Pack",
+    bottles: 1,
+    price: 799,
+    originalPrice: 999,
+    discount: 20,
+    features: [
+      "1 Month Supply",
+      "Free Shipping",
+      "30-Day Money Back",
+      "Secure Payment",
+    ],
+    popular: false,
+    icon: Package,
+  },
+  {
+    id: 2,
+    name: "Family Pack",
+    bottles: 3,
+    price: 1899,
+    originalPrice: 2997,
+    discount: 37,
+    savings: 1098,
+    features: [
+      "3 Months Supply",
+      "Free Shipping",
+      "30-Day Money Back",
+      "Secure Payment",
+      "Best Value",
+    ],
+    popular: true,
+    icon: TrendingUp,
+  },
+  {
+    id: 3,
+    name: "Complete Care",
+    bottles: 5,
+    price: 2799,
+    originalPrice: 4995,
+    discount: 44,
+    savings: 2196,
+    features: [
+      "5 Months Supply",
+      "Free Shipping",
+      "30-Day Money Back",
+      "Secure Payment",
+      "Maximum Savings",
+      "Priority Support",
+    ],
+    popular: false,
+    icon: TrendingUp,
+  },
+];
